@@ -21,7 +21,7 @@ Load  "movies.json" to a collection you'll name 'movies' to a database of your c
 - Place it in the root directory of your project
 - Add the following to the file
 
-MONGO_URI=mongodb://localhost:27017 
+MONGO_URI="mongodb://localhost:27017"
 DB_NAME="movies_db"
 NEO4J_URI="bolt://localhost:7687"
 NEO4J_USER="neo4j"
@@ -34,7 +34,7 @@ main.py, models.py, route.py
 
 7. Run the FastAPI application (After having activated your env)
 - uvicorn main:app --reload (on cmd)
-- http://127.0.0.1:8000:docs (on a browser) to access the app
+- http://127.0.0.1:8000/docs (on a browser) to access the app
 
 8. Shutting Down (on cmd)
 - Press 'Ctrl+C' to stop the server 

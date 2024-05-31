@@ -15,7 +15,8 @@ python -m venv env
 pip install fastapi uvicorn pymongo neo4j python-dotenv
 
 4. Setting up MongoDB
-Load  "movies.json" to a collection you'll name 'movies' to a database of your choice on MongoDB Compass
+- Unzip the file movies.zip
+- Load  "movies.json" to a collection you'll name 'movies' to a database of your choice on MongoDB Compass
 
 5. Create a .env file
 - Place it in the root directory of your project

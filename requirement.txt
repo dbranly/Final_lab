@@ -27,7 +27,7 @@ NEO4J_PASSWORD="your_password"
 
 Don't forget to adjust the values to your context
 
-6. Add the files to your project
+6. Add the files to your project directory
 main.py, models.py, route.py
 
 7. Run the FastAPI application (After having activated your env)
